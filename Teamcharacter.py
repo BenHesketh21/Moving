@@ -1,0 +1,6 @@
+again = open("teams.txt", "r")
+again.readline()
+again.readline()
+again.readline(1)
+print(again.readline(2))
+again.close()
