@@ -42,7 +42,7 @@ def hundreds(string0):
 # function for adding
 def doubles(string0):
     if string0[0] == "0":
-        number.remove(string0[0])
+        string0.remove(string0[0])
         nonesave = ""
         return nonesave
     elif string0[0] == "1":
